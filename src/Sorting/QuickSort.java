@@ -11,7 +11,6 @@ public class QuickSort {
             quicksort(num, pi+1, high);  // 🔥 Sort right part (greater elements)
         }
     }
-
     private static int partition(int[] num, int low, int high) {
 
         int pivot = num[high];   // 🔥 Choose last element as pivot
