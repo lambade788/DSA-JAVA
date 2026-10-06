@@ -1,6 +1,9 @@
 package Practice;
 
+import java.util.Collections;
 import java.util.Scanner;
+
+import static java.util.Collections.reverse;
 
 public class ReverseString {
     public static void main(String[] args){
@@ -11,5 +14,6 @@ public class ReverseString {
         for(int i=s.length()-1;i>=0;i--){
             System.out.print(s.charAt(i)+" ");
         }
+
     }
 }
